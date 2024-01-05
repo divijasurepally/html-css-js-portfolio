@@ -1,0 +1,140 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 5rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display:flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 3rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+ 
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275 px;
+    margin: 0 auto 2rem;
+    margin-left: 0rem;
+  }
+  .about-container {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+}
+
+/* ... (Your existing code) ... */
+
+/* Style for smaller screens */
+@media (max-width: 768px) {
+  /* ... (Other CSS rules for smaller screens) ... */
+
+  /* Add spacing to buttons and icons */
+  .btn-container {
+    margin-top: 20px;
+  }
+
+  .icon {
+    margin-top: 10px;
+  }
+
+  /* Move "About Me" section downwards */
+  #about {
+    margin-top: 2rem; /* Adjust as needed */
+  }
+
+  /* Adjust spacing for icons and "Get To Know More" text */
+  #socials-container {
+    margin-top: 80rem;
+  }
+
+  /* Ensure that icons don't collide with "Get To Know More" text */
+  .icon {
+    margin-bottom: 10rem;
+  }
+}
+
+/* ... (Your existing code) ... */
+
+/* Style for smaller screens */
+@media (max-width: 768px) {
+  /* ... (Other CSS rules for smaller screens) ... */
+
+  /* Add spacing to buttons and icons */
+  .btn-container {
+    margin-top: 20px;
+  }
+
+  .icon {
+    margin-top: 10px;
+  }
+
+  /* Move "About Me" section downwards */
+  #about {
+    margin-top: 8rem; /* Adjust as needed */
+  }
+
+  /* Adjust spacing for icons and "Get To Know More" text */
+  #socials-container {
+    margin-top: 2rem; /* Adjust as needed */
+  }
+
+  /* Ensure that icons don't collide with "Get To Know More" text */
+  .icon {
+    margin-bottom: 1rem; /* Adjust as needed */
+  }
+}
+
+
